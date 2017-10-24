@@ -1,0 +1,32 @@
+{
+    "name": "gulpproject",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-clean": "^0.3.2",
+        "gulp-clean-css": "^3.9.0",
+        "gulp-htmlmin": "^3.0.0",
+        "gulp-imagemin": "^3.4.0",
+        "gulp-jshint": "^2.0.4",
+        "gulp-livereload": "^3.8.1",
+        "gulp-ruby-sass": "^2.1.1",
+        "gulp-sourcemaps": "^2.6.1",
+        "gulp-tinypng-nokey": "^1.1.0",
+        "gulp-tmod": "^2.0.3",
+        "gulp-uglify": "^3.0.0",
+        "gulp-zip": "^4.0.0",
+        "jshint": "^2.9.5",
+        "pump": "^1.0.2"
+    },
+    "dependencies": {
+        "gulp-file-include": "^1.2.0",
+        "gulp-tinypng-compress": "^1.2.1"
+    }
+}

@@ -1,0 +1,1 @@
+define(["viewTpl/index"],function(e){console.log(e)});
