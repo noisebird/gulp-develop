@@ -95,12 +95,11 @@ gulp.task('tpl', function() {
         .pipe(livereload());
 
 });
-gulp.task('copy', () => {
-
-    gulp.src('lib/*')
-        .pipe(gulp.dest('dist/lib'))
-        .pipe(livereload());;
-})
+gulp.task('copy', function() {
+    gulp.src('lib/**/*')
+        .pipe(gulp.dest('dist/lib/'))
+        .pipe(livereload());
+});
 gulp.task('dev', ['css', 'compressHtml', 'image', 'compressJs', 'tpl', 'copy', 'watch'], function() {
     console.log('..............')
 })

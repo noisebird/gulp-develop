@@ -12,6 +12,7 @@
         "gulp": "^3.9.1",
         "gulp-clean": "^0.3.2",
         "gulp-clean-css": "^3.9.0",
+        "gulp-copy": "^1.0.1",
         "gulp-htmlmin": "^3.0.0",
         "gulp-imagemin": "^3.4.0",
         "gulp-jshint": "^2.0.4",
